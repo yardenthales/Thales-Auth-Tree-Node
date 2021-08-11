@@ -1,16 +1,20 @@
-Thales
+# Thales
 Thales solves customer problems. We design and deliver authenticators that support your workflow, keep you in compliance, and keep your employees and customers safe.
+
 Our solution portfolio includes FIDO authenticators, hardware and software OTP tokens, X.509 certificate-based USB tokens and smart cards, OOB, hybrid tokens, and phone tokens for all mobile platforms. 
+
 Thales FIDO2 authenticators are customizable, and our FIDO smart card is additionally:
-•	Common Criteria certified
-•	ANSSI qualified
-•	NFC reader compatible to enable contactless authorization
-Prerequisites - Supported Authenticators
+- Common Criteria certified
+- ANSSI qualified
+- NFC reader compatible to enable contactless authorization
+
+## Prerequisites - Supported Authenticators
 FIDO
-•	SafeNet IDPrime 3940 FIDO (Smart Card)
-•	SafeNet eToken FIDO
-FIDO2 and PKI Support, All in One Device
-The SafeNet IDPrime 3940 FIDO Smart Card is FIDO2.0 and U2F certified. It is designed for PKI-based applications and comes with a SafeNet Minidriver that offers perfect integration--native support for Microsoft® environments without any additional middleware. This dual-interface smart card, allows communication either via a contact interface or via a contactless ISO14443 interface, and is compatible with some NFC readers. 
+- SafeNet IDPrime 3940 FIDO (Smart Card)
+- SafeNet eToken FIDO
+
+## FIDO2 and PKI Support, All in One Device
+The **SafeNet IDPrime 3940 FIDO** Smart Card is FIDO2.0 and U2F certified. It is designed for PKI-based applications and comes with a SafeNet Minidriver that offers perfect integration--native support for Microsoft® environments without any additional middleware. This dual-interface smart card, allows communication either via a contact interface or via a contactless ISO14443 interface, and is compatible with some NFC readers. 
 USB Token with Touch Sense Options
 The SafeNet eToken FIDO USB token is FIDO2.0 and U2F certified. It is an ideal solution for enterprises looking to deploy passwordless authentication for employees. This authenticator is a compact, tamper-evident USB with presence detection, which creates a third factor of authentication: Something you have (physical token), something you know (PIN), something you do (touching the token).
 Thales FIDO Authentication Tree 
