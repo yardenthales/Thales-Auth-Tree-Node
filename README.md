@@ -26,8 +26,8 @@ The tree below shows the flow to register a Thales FIDO authenticator
 ![image](https://user-images.githubusercontent.com/88729940/129358406-bd6f5122-d859-4a71-a9b3-8464da9410ac.png)
 
  
-1.	In this tree, the user will provide his user name and password (‘[Username Collector](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-username-collector)’ node and ‘[Password Collector](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-password-collector)’ node) and then be directed to the FIDO authentication flow (‘[WebAuthn Authentication Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/#auth-node-webauthn-auth)’).
-2.	If the user doesn’t have a FIDO Authenticator, he will be asked if he wishes to register (‘Register Thales Authenticator’ - [Message Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/#auth-node-message)). If his reply is positive (True), he will be directed to the registration node (‘[WebAuthn Registration Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/#auth-node-webauthn-registration)’ Node). If his reply is negative (False), he will be directed to provide his user name and password.
+1.	In this tree, the user will provide his user name and password (‘[Username Collector](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-username-collector)’ node and ‘[Password Collector](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-password-collector)’ node) and then be directed to the FIDO authentication flow (‘[WebAuthn Authentication Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-webauthn-auth)’).
+2.	If the user doesn’t have a FIDO Authenticator, he will be asked if he wishes to register (‘Register Thales Authenticator’ - [Message Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-message)). If his reply is positive (True), he will be directed to the registration node (‘[WebAuthn Registration Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-webauthn-registration)’ Node). If his reply is negative (False), he will be directed to provide his user name and password.
 
 This listing focuses on the settings used to support Thales authenticators with ForgeRock access management.
 
@@ -49,7 +49,7 @@ Combining ForgeRock access management with Thales authenticators, you have the f
 In the following flows, we will demonstrate how we build different flows (for either 2FA or MFA) starting with a simple flow that defines registration for a Thales FIDO authenticator. 
 
 # WebAuthn Authentication Node
-Reference [WebAuthn Authentication Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/#auth-node-webauthn-auth)
+Reference [WebAuthn Authentication Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-webauthn-auth)
 
 The WebAuthn Authentication node allows users of supported clients to use a registered FIDO2 device during authentication.
 
@@ -72,7 +72,7 @@ Configuration of WebAuthn Authentication Node:
   - REQUIRED – for MFA, the user will be prompted to enter a PIN
 
 ## Message Node
-Reference [Message Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/#auth-node-message)
+Reference [Message Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-message)
 
 ![image](https://user-images.githubusercontent.com/88729940/129359089-96a5ea06-264e-4c4b-ac1e-fa1e475f790f.png)
 
@@ -95,7 +95,7 @@ Configuration of **Message Node:**
 
 ## WebAuthn Registration Node
 
-Reference [WebAuthn Registration Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/#auth-node-webauthn-registration)
+Reference [WebAuthn Registration Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-webauthn-registration)
 
 The WebAuthn Registration authentication node allows users of supported clients to register FIDO2 devices for authentication.
 
