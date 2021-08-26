@@ -53,7 +53,7 @@ Reference [WebAuthn Authentication Node](https://backstage.forgerock.com/docs/am
 
 The WebAuthn Authentication node allows users of supported clients to use a registered FIDO2 device during authentication.
 
-![image](https://user-images.githubusercontent.com/88729940/129358926-ee683daf-4bfc-4dc2-99e2-1851cda2f94d.png)
+![image](https://user-images.githubusercontent.com/88729940/130937712-d0ee935f-1c26-408c-bc6e-4b4c08b73d48.png)
 
 Input to the **WebAuthn Authentication Node:**
 - Data Store Decision (True)
