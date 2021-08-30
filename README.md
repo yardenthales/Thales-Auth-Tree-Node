@@ -21,9 +21,9 @@ The **SafeNet IDPrime 3940 FIDO** Smart Card is FIDO2.0 and U2F certified. It is
 The **SafeNet eToken FIDO USB token** is FIDO2.0 and U2F certified. It is an ideal solution for enterprises looking to deploy passwordless authentication for employees. This authenticator is a compact, tamper-evident USB with presence detection, which creates a third factor of authentication: Something you have (physical token), something you know (PIN), something you do (touching the token).
 
 # Thales FIDO Authentication Tree 
-The tree below shows the flow to register a Thales FIDO authenticator
+The tree below shows the flow to register and authenticate Thales FIDO authenticator
 
-![image](https://user-images.githubusercontent.com/88729940/129358406-bd6f5122-d859-4a71-a9b3-8464da9410ac.png)
+![image](https://user-images.githubusercontent.com/88729940/131348378-e76840b0-388c-46a9-a139-b433b834b8ff.png)
 
  
 1.	In this tree, the user will provide his user name and password (‘[Username Collector](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-username-collector)’ node and ‘[Password Collector](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-password-collector)’ node) and then be directed to the FIDO authentication flow (‘[WebAuthn Authentication Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-webauthn-auth)’).
@@ -53,7 +53,8 @@ Reference [WebAuthn Authentication Node](https://backstage.forgerock.com/docs/am
 
 The WebAuthn Authentication node allows users of supported clients to use a registered FIDO2 device during authentication.
 
-![image](https://user-images.githubusercontent.com/88729940/130937712-d0ee935f-1c26-408c-bc6e-4b4c08b73d48.png)
+![image](https://user-images.githubusercontent.com/88729940/131348413-bc62b100-d3ef-41e6-b8dc-44123cc79811.png)
+
 
 Input to the **WebAuthn Authentication Node:**
 - Data Store Decision (True)
@@ -99,7 +100,7 @@ Reference [WebAuthn Registration Node](https://backstage.forgerock.com/docs/am/7
 
 The WebAuthn Registration authentication node allows users of supported clients to register FIDO2 devices for authentication.
 
-![image](https://user-images.githubusercontent.com/88729940/129359288-db40ea15-ba8c-42ed-b08a-2b8c789cad7c.png)
+![image](https://user-images.githubusercontent.com/88729940/131348452-4f3610af-d376-4be7-ab87-9033fff55434.png)
 
 Input to the **WebAuthn Registration Node:**
   - Message Node (True)
