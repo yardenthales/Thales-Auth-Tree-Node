@@ -1,19 +1,25 @@
 # Thales
 Thales solves customer problems. We design and deliver [authenticators](https://cpl.thalesgroup.com/access-management/authenticators) that support your workflow, keep you in compliance, and keep your employees and customers safe.
 
-Our solution portfolio includes FIDO authenticators, hardware and software OTP tokens, X.509 certificate-based USB tokens and smart cards, OOB, hybrid tokens, and phone tokens for all mobile platforms. 
+Our solution portfolio includes FIDO Authenticators, hardware and software OTP tokens, X.509 certificate-based USB tokens and smart cards, OOB, hybrid tokens, and phone tokens for all mobile platforms. 
 
-Thales FIDO2 authenticators are customizable, and our FIDO smart card is additionally:
-- Common Criteria certified
-- ANSSI qualified
-- NFC reader compatible to enable contactless authorization
+## Stop Phishing Attacks with Strong Passwordless Multi-Factor Authentication
 
-## Prerequisites - Supported FIDO Authenticators
+[Thales FIDO2 security keys](https://cpl.thalesgroup.com/access-management/authenticators/fido-devices)
+are offering organizations passwordless, phishing-resistant authentication, allowing them to stop account takeover and remove risk of unauthorized access to sensitive resources like SaaS applications and Windows endpoints.
 
-- SafeNet IDPrime 3940 FIDO (Smart Card)
-- SafeNet eToken FIDO
+## Enable multiple user authentication journeys
+Thales supports numerous passwordless authentication journeys with a wide range of FIDO authenticators 
+Facilitate users’ MFA adoption with biometric authentication 
 
-## FIDO2 and PKI Support, All in One Device
+Combining biometrics and NFC, the innovative [SafeNet IDPrime FIDO Bio Smart Card](https://https://cpl.thalesgroup.com/access-management/safenet-idprime-fido-biometric-smart-card)
+allows end users to authenticate from multiple types of devices securely and easily, with just a fingerprint instead of a password
+
+
+![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/222911cf-7ab2-4ff3-a6f7-882ad37123d0)
+
+
+
 The **SafeNet IDPrime 3940 FIDO** Smart Card is FIDO2.0 and U2F certified. It is designed for PKI-based applications and comes with a SafeNet Minidriver that offers perfect integration--native support for Microsoft® environments without any additional middleware. This dual-interface smart card, allows communication either via a contact interface or via a contactless ISO14443 interface, and is compatible with some NFC readers.
 
 ## USB Token with Touch Sense Options
