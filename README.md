@@ -25,7 +25,7 @@ Thales FIDO devices enable users to authenticate to any cloud resources from the
 ### Combine Physical & Logical Access
 For optimum convenience, Thales FIDO smart cards support physical access enabling users to access both physical spaces and logical resources with a single customizable smart card.
 
-**Solution brief** : https://cpl.thalesgroup.com/sites/default/files/content/solution_briefs/field_document/2024-03/fido-devices-passwordless-sb.pdf
+**Solution brief** : https://cpl.thalesgroup.com/resources/access-management/fido2-passwordless-authentication-for-azure-ad-solution-brief
 
 ## Prerequisites - Supported FIDO Authenticators :
 **https://cpl.thalesgroup.com/access-management/authenticators/fido-devices**
@@ -35,12 +35,6 @@ For optimum convenience, Thales FIDO smart cards support physical access enablin
 - SafeNet eToken Fusion Series (combine FIDO with PKI)
 - SafeNet eToken FIDO series (FIDO only) 
 
-## FIDO2 and PKI Support, All in One Device
-The **SafeNet IDPrime 3940 FIDO** Smart Card is FIDO2.0 and U2F certified. It is designed for PKI-based applications and comes with a SafeNet Minidriver that offers perfect integration--native support for Microsoft® environments without any additional middleware. This dual-interface smart card, allows communication either via a contact interface or via a contactless ISO14443 interface, and is compatible with some NFC readers.
-
-## USB Token with Touch Sense Options
-
-The **SafeNet eToken FIDO USB token** is FIDO2.0 and U2F certified. It is an ideal solution for enterprises looking to deploy passwordless authentication for employees. This authenticator is a compact, tamper-evident USB with presence detection, which creates a third factor of authentication: Something you have (physical token), something you know (PIN), something you do (touching the token).
 
 # Thales FIDO Authentication Tree 
 The tree below shows the flow to register and authenticate Thales FIDO authenticator
