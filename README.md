@@ -1,4 +1,4 @@
-# Thales
+# Thales Auth Tree 
 Thales solves customer problems. We design and deliver [authenticators](https://cpl.thalesgroup.com/access-management/authenticators) that support your workflow, keep you in compliance, and keep your employees and customers safe.
 
 Our solution portfolio includes FIDO authenticators, hardware and software OTP tokens, X.509 certificate-based USB tokens and smart cards, OOB, hybrid tokens, and phone tokens for all mobile platforms. 
