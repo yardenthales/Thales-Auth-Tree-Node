@@ -1,31 +1,46 @@
-# Thales Auth Tree 
+# Thales Auth Tree Nodes
 Thales solves customer problems. We design and deliver [authenticators](https://cpl.thalesgroup.com/access-management/authenticators) that support your workflow, keep you in compliance, and keep your employees and customers safe.
 
 Our solution portfolio includes FIDO authenticators, hardware and software OTP tokens, X.509 certificate-based USB tokens and smart cards, OOB, hybrid tokens, and phone tokens for all mobile platforms. 
 
-Thales FIDO2 authenticators are customizable, and our FIDO smart card is additionally:
-- Common Criteria certified
-- ANSSI qualified
-- NFC reader compatible to enable contactless authorization
+## Stop Phishing Attacks with Strong Passwordless Multi-Factor Authentication
 
-## Prerequisites - Supported FIDO Authenticators
+[Thales FIDO2 security keys](https://cpl.thalesgroup.com/access-management/authenticators/fido-devices) are offering organizations passwordless, phishing-resistant authentication, allowing them to stop account takeover and remove risk of unauthorized access to sensitive resources like SaaS applications and Windows endpoints.
 
-- SafeNet IDPrime 3940 FIDO (Smart Card)
-- SafeNet eToken FIDO
+## Enable multiple user authentication journeys
 
-## FIDO2 and PKI Support, All in One Device
-The **SafeNet IDPrime 3940 FIDO** Smart Card is FIDO2.0 and U2F certified. It is designed for PKI-based applications and comes with a SafeNet Minidriver that offers perfect integration--native support for Microsoft® environments without any additional middleware. This dual-interface smart card, allows communication either via a contact interface or via a contactless ISO14443 interface, and is compatible with some NFC readers.
+Thales supports numerous passwordless authentication journeys with a wide range of FIDO authenticators. 
+### Facilitate users’ MFA adoption with biometric authentication 
+Combining biometrics and NFC, the innovative SafeNet IDPrime FIDO Bio Smart Card allows end users to authenticate from multiple types of devices securely and easily, with just a fingerprint instead of a password.
 
-## USB Token with Touch Sense Options
+![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/ae23b369-e028-4b0b-9877-e397527a56bc)
+### Modernize PKI / CBA Environments 
+Organizations that rely on PKI and Certificate based Authentication (CBA) can now use a combined PKI-FIDO smart card or USB Token to facilitate their cloud and digital transformation initiatives. By providing their users with a single authentication device for securing access to legacy apps, network domains and cloud services, they reduce operational costs and simplify User Experience.
 
-The **SafeNet eToken FIDO USB token** is FIDO2.0 and U2F certified. It is an ideal solution for enterprises looking to deploy passwordless authentication for employees. This authenticator is a compact, tamper-evident USB with presence detection, which creates a third factor of authentication: Something you have (physical token), something you know (PIN), something you do (touching the token).
+![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/ade37808-7843-4280-b5c5-1883957102d4)
+### Secure Mobile Access
+Thales FIDO devices enable users to authenticate to any cloud resources from their mobile devices: either by taping their contactless smart card on their device using NFC, or by plugging the SafeNet eToken Fusion USB-C to their mobile phone.
+
+![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/412d24e7-5063-4a86-a38f-2a1fbd4c23a9) ![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/d6d5fff9-021a-4b09-9a5b-8391561e6479)
+### Combine Physical & Logical Access
+For optimum convenience, Thales FIDO smart cards support physical access enabling users to access both physical spaces and logical resources with a single customizable smart card.
+
+**Solution brief** : https://cpl.thalesgroup.com/resources/access-management/fido2-passwordless-authentication-for-azure-ad-solution-brief
+
+## Prerequisites - Supported FIDO Authenticators :
+**https://cpl.thalesgroup.com/access-management/authenticators/fido-devices**
+- SafeNet IDPrime FIDO Bio Smart Card (FIDO & biometry)
+- SafeNet IDPrime FIDO series (combine FIDO with PKI and optionally physical access)
+- SafeNet IDCore FIDO series (combine FIDO with physical access)
+- SafeNet eToken Fusion Series (combine FIDO with PKI)
+- SafeNet eToken FIDO series (FIDO only) 
+
 
 # Thales FIDO Authentication Tree 
 The tree below shows the flow to register and authenticate Thales FIDO authenticator
 
 ![image](https://user-images.githubusercontent.com/88729940/131348378-e76840b0-388c-46a9-a139-b433b834b8ff.png)
 
- 
 1.	In this tree, the user will provide his user name and password (‘[Username Collector](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-username-collector)’ node and ‘[Password Collector](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-password-collector)’ node) and then be directed to the FIDO authentication flow (‘[WebAuthn Authentication Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-webauthn-auth)’).
 2.	If the user doesn’t have a FIDO Authenticator, he will be asked if he wishes to register (‘Register Thales Authenticator’ - [Message Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-message)). If his reply is positive (True), he will be directed to the registration node (‘[WebAuthn Registration Node](https://backstage.forgerock.com/docs/am/7.1/authentication-guide/auth-node-configuration-hints.html#auth-node-webauthn-registration)’ Node). If his reply is negative (False), he will be directed to provide his user name and password.
 
