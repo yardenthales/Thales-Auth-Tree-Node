@@ -13,15 +13,15 @@ Thales supports numerous passwordless authentication journeys with a wide range 
 ### Facilitate users’ MFA adoption with biometric authentication 
 Combining biometrics and NFC, the innovative SafeNet IDPrime FIDO Bio Smart Card allows end users to authenticate from multiple types of devices securely and easily, with just a fingerprint instead of a password.
 
-![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/ae23b369-e028-4b0b-9877-e397527a56bc)
+![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/ae23b369-e028-4b0b-9877-e397527a56bc.png)
 ### Modernize PKI / CBA Environments 
 Organizations that rely on PKI and Certificate based Authentication (CBA) can now use a combined PKI-FIDO smart card or USB Token to facilitate their cloud and digital transformation initiatives. By providing their users with a single authentication device for securing access to legacy apps, network domains and cloud services, they reduce operational costs and simplify User Experience.
 
-![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/ade37808-7843-4280-b5c5-1883957102d4)
+![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/ade37808-7843-4280-b5c5-1883957102d4.png)
 ### Secure Mobile Access
 Thales FIDO devices enable users to authenticate to any cloud resources from their mobile devices: either by taping their contactless smart card on their device using NFC, or by plugging the SafeNet eToken Fusion USB-C to their mobile phone.
 
-![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/412d24e7-5063-4a86-a38f-2a1fbd4c23a9) ![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/d6d5fff9-021a-4b09-9a5b-8391561e6479)
+![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/412d24e7-5063-4a86-a38f-2a1fbd4c23a9.png) ![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/d6d5fff9-021a-4b09-9a5b-8391561e6479.png)
 ### Combine Physical & Logical Access
 For optimum convenience, Thales FIDO smart cards support physical access enabling users to access both physical spaces and logical resources with a single customizable smart card.
 
