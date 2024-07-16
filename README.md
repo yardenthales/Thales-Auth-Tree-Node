@@ -21,7 +21,7 @@ Organizations that rely on PKI and Certificate based Authentication (CBA) can no
 ### Secure Mobile Access
 Thales FIDO devices enable users to authenticate to any cloud resources from their mobile devices: either by taping their contactless smart card on their device using NFC, or by plugging the SafeNet eToken Fusion USB-C to their mobile phone.
 
-![image](https://user-images.githubusercontent.com/88729940/d6d5fff9-021a-4b09-9a5b-8391561e6479.png)
+![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/d6d5fff9-021a-4b09-9a5b-8391561e6479.png)
 
 ### Combine Physical & Logical Access
 For optimum convenience, Thales FIDO smart cards support physical access enabling users to access both physical spaces and logical resources with a single customizable smart card.
