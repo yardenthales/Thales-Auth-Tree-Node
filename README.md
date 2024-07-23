@@ -14,6 +14,8 @@ Thales supports numerous passwordless authentication journeys with a wide range 
 Combining biometrics and NFC, the innovative SafeNet IDPrime FIDO Bio Smart Card allows end users to authenticate from multiple types of devices securely and easily, with just a fingerprint instead of a password.
 
 ![image](https://github.com/ForgeRock/Thales-Auth-Tree-Node/assets/88729940/ae23b369-e028-4b0b-9877-e397527a56bc.png)
+![Image 1](https://github.com/user-attachments/assets/ac9263c7-78a4-4d4a-a366-b40f97238df1)
+
 
 ### Modernize PKI / CBA Environments 
 Organizations that rely on PKI and Certificate based Authentication (CBA) can now use a combined PKI-FIDO smart card or USB Token to facilitate their cloud and digital transformation initiatives. By providing their users with a single authentication device for securing access to legacy apps, network domains and cloud services, they reduce operational costs and simplify User Experience.
